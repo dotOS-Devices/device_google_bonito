@@ -55,6 +55,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ElmyraService
 
+# Now Playing
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
+
 # Enable on-access verification of priv apps. This requires fs-verity support in kernel.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apk_verity.mode=1
