@@ -33,11 +33,11 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="sargo" \
-    PRIVATE_BUILD_DESC="sargo-user 11 RQ3A.210805.001.A1 7474174 release-keys"
+    PRIVATE_BUILD_DESC="sargo-user 11 RQ3A.210905.001 7511028 release-keys"
 
-BUILD_FINGERPRINT := "google/sargo/sargo:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+BUILD_FINGERPRINT := "google/sargo/sargo:11/RQ3A.210905.001/7511028:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/sargo/sargo:11/RQ3A.210805.001.A1/7474174:user/release-keys
+    ro.build.fingerprint=google/sargo/sargo:11/RQ3A.210905.001/7511028:user/release-keys
 
 $(call inherit-product, vendor/google/sargo/sargo-vendor.mk)
